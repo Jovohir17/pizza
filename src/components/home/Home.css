@@ -1,0 +1,1012 @@
+header .code__px {
+  position: absolute;
+  left: 100px;
+}
+header .offcanvas {
+  z-index: 1000;
+}
+header .header__nav .offcanvas .modal-backdrop {
+  background-color: rgba(25, 25, 25, 0.4);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  width: 75.8%;
+  height: 100%;
+  opacity: 1;
+  z-index: -2;
+}
+header .offcanvas-backdrop.show {
+  z-index: -1;
+  opacity: 0.5;
+}
+header .navbar {
+  padding: 10px 195px 0 195px;
+  border-bottom: 1px solid #F0F0F0;
+}
+header .navbar .nav__userloc {
+  display: flex;
+}
+header .navbar .nav__userloc .nav__location {
+  display: flex;
+  margin-right: 343px;
+}
+header .navbar .nav__userloc .nav__location .loc__icon {
+  margin-top: -11px;
+}
+header .navbar .nav__userloc .nav__location .locations {
+  border: none;
+  outline: none;
+  width: 90px;
+  margin-top: -11px;
+  margin-right: 40px;
+}
+header .navbar .nav__userloc .nav__location .locations .city {
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+header .navbar .nav__userloc .nav__location .locations input {
+  display: none;
+}
+header .navbar .nav__userloc .nav__location .check__addres {
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-right: 40px;
+}
+header .navbar .nav__userloc .nav__location .zakaz__time {
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 8px;
+}
+header .navbar .nav__userloc .nav__location .zakaz__time span {
+  color: #191919;
+  font-family: "Inter-SemiBold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+header .navbar .nav__userloc .nav__user {
+  display: flex;
+  gap: 40px;
+  margin-top: 8px;
+}
+header .navbar .nav__userloc .nav__user .work__time {
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+header .navbar .nav__userloc .nav__user a {
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+header .navbar .nav__userloc .nav__user a img {
+  margin-right: 8px;
+  margin-top: -2px;
+}
+header .header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 16px 193px 12px 195px;
+}
+header .header__nav .header__logo img {
+  margin-right: 12px;
+}
+header .header__nav .add__tovar {
+  border: 0;
+  border-radius: 4px;
+  background: #FF7010;
+  padding: 10px 16px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+header .header__nav .add__tovar img {
+  margin-right: 8px;
+  margin-top: -3px;
+}
+header .header__nav .offcanvas {
+  width: 420px;
+}
+header .header__nav .offcanvas .offcanvas-header h5 {
+  padding-top: 14px;
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+header .header__nav .offcanvas .offcanvas-header h5 span {
+  font-family: "Inter-Medium";
+}
+header .header__nav .offcanvas .offcanvas-header .close {
+  margin-top: 7px;
+  margin-right: 4px;
+  border: 0;
+  background: transparent;
+}
+header .header__nav .offcanvas .offcanvas-body {
+  padding-top: 0;
+}
+header .header__nav .offcanvas .offcanvas-body .card {
+  margin-block: 20px;
+  border-radius: 12px;
+  padding: 18px 16px 16px 16px;
+  width: 380px;
+  height: 126px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza {
+  display: flex;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info {
+  margin-top: 9px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .pizza__title {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .pizza__cm {
+  margin-top: -8px;
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost {
+  display: flex;
+  gap: 98px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  background: var(--light-primary, #FFEEE2);
+  width: 92px;
+  height: 36px;
+  margin-top: 3px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons .decrement {
+  background: transparent;
+  border: none;
+  margin-left: 8px;
+  margin-top: -6px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons .decrement a {
+  color: #FF7010;
+  text-align: center;
+  text-decoration: none;
+  /* Desktop/Subtitle 2 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons .increment {
+  margin-top: -6px;
+  background: transparent;
+  border: none;
+  margin-right: 8px;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons .increment a {
+  color: #FF7010;
+  text-align: center;
+  text-decoration: none;
+  /* Desktop/Subtitle 2 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost .buttons h4 {
+  border-radius: 6px;
+  background: var(--light-primary, #FFEEE2);
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  width: 25px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+header .header__nav .offcanvas .offcanvas-body .card .card__pizza .pizza__info .cost p {
+  color: #FF7010;
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 20px;
+  margin-right: -53px;
+}
+header .header__nav .offcanvas .offcanvas-body img {
+  width: 94px;
+  height: 94px;
+  margin-right: 16px;
+}
+header .header__nav .offcanvas .offcanvas-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px 12px 20px;
+}
+header .header__nav .offcanvas .offcanvas-footer p {
+  color: #FF7010;
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 16px;
+  line-height: 28px;
+}
+header .header__nav .offcanvas .offcanvas-footer button {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  background: #FF7010;
+  border: 0;
+  padding: 13px 24px;
+  transition: all 0.3s;
+}
+header .header__nav .offcanvas .offcanvas-footer button:hover {
+  transition: all 0.3s;
+  background: transparent;
+  color: #FF7010;
+  border: 1px solid #FF7010;
+}
+header .header__nav .offcanvas .offcanvas-footer button:hover a {
+  color: #FF7010;
+}
+header .header__nav .offcanvas .offcanvas-footer button a {
+  color: #FFF;
+  text-align: center;
+  /* Desktop/Normal */
+  font-family: SF Pro Text, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+main {
+  background: #F9F9F9 !important;
+}
+main .header__menu {
+  background: #F9F9F9;
+}
+main .header__menu .menu__tovars {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  margin-left: 188px;
+}
+main .header__menu .menu__tovars .sales {
+  padding: 20px 40px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .sales a {
+  margin-top: 8px;
+  color: var(--red, #E23535);
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .sales:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .pizza {
+  padding: 20px 39px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .pizza a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .pizza:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .sushi {
+  padding: 20px 43px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .sushi a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .sushi:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .sodas {
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .sodas a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .sodas:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .bonus {
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .bonus a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .bonus:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .combo {
+  padding: 20px 39px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .combo a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .combo:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .deserts {
+  padding: 20px 29px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .deserts a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .deserts:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__tovars .sous {
+  padding: 20px 39px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .header__menu .menu__tovars .sous a {
+  margin-top: 8px;
+  color: #FF7010;
+  text-align: center;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .menu__tovars .sous:hover {
+  cursor: pointer;
+}
+main .header__menu .menu__infos {
+  display: flex;
+  gap: 33px;
+  margin-left: 188.5px;
+  margin-top: 30px;
+}
+main .header__menu .menu__infos .sale__pizza {
+  background: #FF7010;
+  width: 300px;
+  border-radius: 12px;
+}
+main .header__menu .menu__infos .sale__pizza img {
+  border-radius: 12px;
+}
+main .header__menu .menu__infos .sale__pizza p {
+  color: #FFF;
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 33.33px 40px 0 20px;
+}
+main .header__menu .menu__infos .sale__bag {
+  background: #E23535;
+  width: 300px;
+  border-radius: 12px;
+}
+main .header__menu .menu__infos .sale__bag img {
+  padding-top: 72.62px;
+}
+main .header__menu .menu__infos .sale__bag p {
+  color: #FFF;
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 80.67px 40px 0 20px;
+}
+main .header__menu .check__addres {
+  display: flex;
+  align-items: center;
+  margin-left: 188px;
+  border-radius: 8px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  width: 1300px;
+  height: 80px;
+  padding: 16px 0 16px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .header__menu .check__addres p {
+  padding-left: 32px;
+  padding-top: 15px;
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .header__menu .check__addres img {
+  margin-left: 317.5px;
+  position: absolute;
+}
+main .header__menu .check__addres .yandex {
+  margin-left: 42px;
+  color: var(--gray-text, #A5A5A5);
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 13px 523px 13px 40px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: #FFF;
+}
+main .header__menu .check__addres button {
+  margin-left: 20px;
+  color: #FFF;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  background: #FF7010;
+  border: 0;
+  padding: 13px 32px;
+}
+main .main__menu {
+  margin-left: 188px;
+}
+main .main__menu .pizza__menu .pizza__title {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+main .main__menu .pizza__menu .pizzas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+main .main__menu .pizza__menu .pizzas .pizza {
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  margin-bottom: 30px;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(3) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza .card__new {
+  margin-top: 20px;
+  position: absolute;
+  background: #E23535;
+  padding: 7px 16px;
+  border-radius: 0 7px 7px 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+main .main__menu .pizza__menu .pizzas .pizza img {
+  background: #ffffff;
+  border-radius: 12px 12px 0 0;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts {
+  border-radius: 0 0 12px 12px;
+  border-top: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  width: 300px;
+  padding: 16px 20px 20px 10px;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__name {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  width: 260px;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__info {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__cost {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__cost button {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  background: #FF7010;
+  padding: 13px 32px;
+  border: none;
+  width: 131px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__cost button:hover {
+  color: #FF7010;
+  background: #fff;
+  transition: all 0.3s;
+}
+main .main__menu .pizza__menu .pizzas .pizza .pizza__texts .pizza__cost p {
+  margin-top: 10px;
+  color: #FF7010;
+  text-align: right;
+  font-family: "Inter-SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(3) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(4) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(5) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(6) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(7) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(8) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(11) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(12) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(13) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(14) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(15) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(16) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(19) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(20) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(21) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(22) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(23) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(24) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(27) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(28) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(29) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(30) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(31) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(32) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(35) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(36) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(37) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(38) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(39) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(40) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(43) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(44) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(45) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(46) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(47) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(48) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(49) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(50) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(51) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(52) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(53) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(54) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(55) .card__new {
+  display: none;
+}
+main .main__menu .pizza__menu .pizzas .pizza:nth-of-type(56) .card__new {
+  display: none;
+}
+main .main__menu .sushi__menu .sushi__title {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+main .checked__button h4 {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+main .checked__button .check__text {
+  margin-top: 20px;
+  width: 850px;
+  color: #191919;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+main .checked__button .checked__text {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, #f9f9f9 0%, #191919 100%);
+  opacity: 0.5;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 850px;
+  color: #191919;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+main .checked__button .checked__text span {
+  font-family: "Inter-Bold";
+}
+main .checked__button .open__check {
+  margin-top: 20px;
+  padding-bottom: 60px;
+  color: #FF7010;
+  text-decoration: none;
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+main .checked__button .open__check:checked ~ #opened {
+  opacity: 1;
+  background: linear-gradient(0deg, #030303 100%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 32px 0 32px 0;
+  border: 1px solid #F0F0F0;
+  background: #FFF;
+}
+footer .footer__logo {
+  margin-left: 188px;
+}
+footer .footer__logo .logo {
+  display: flex;
+  align-items: center;
+  gap: 14.98px;
+  margin-top: -5px;
+}
+footer .footer__logo p {
+  margin-top: 136px;
+}
+footer .footer__menu {
+  display: flex;
+}
+footer .footer__menu .where__pizza {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+footer .footer__menu .where__pizza p {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+footer .footer__menu .where__pizza a {
+  margin-bottom: 20px;
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+footer .footer__menu .help {
+  display: flex;
+  flex-direction: column;
+  margin-left: 131px;
+}
+footer .footer__menu .help p {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+footer .footer__menu .help a {
+  margin-bottom: 20px;
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+footer .footer__menu .contacts {
+  margin-left: 132px;
+}
+footer .footer__menu .contacts p {
+  color: var(--black, #191919);
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+footer .footer__menu .contacts a {
+  display: flex;
+  gap: 12px;
+  color: var(--black, #191919);
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+footer .footer__menu .contacts .location {
+  display: flex;
+  gap: 15px;
+}
+footer .footer__menu .contacts .profiles {
+  display: flex;
+  gap: 24px;
+}/*# sourceMappingURL=Home.css.map */

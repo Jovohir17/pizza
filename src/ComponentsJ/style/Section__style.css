@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+section {
+  height: 868px;
+  width: 1680px;
+}
+section .section__items {
+  color: var(--black, #191919);
+  margin-left: 415px;
+  margin-top: 40px;
+  display: flex;
+}
+section .section__items h1 {
+  padding: 0;
+  margin: 0;
+  /* Desktop/H1 */
+  font-family: "inter";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+}
+section .section__items .buttons {
+  margin-left: 237px;
+}
+section .section__items .buttons .b1 {
+  width: 180px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: var(--white, #FFF);
+  color: var(--black, #191919);
+  text-align: center;
+  /* Desktop/Normal */
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding: 0;
+}
+section .section__items .buttons .b2 {
+  width: 180px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 0;
+  background: var(--primary, #FF7010);
+  padding: 0;
+  color: white;
+}
+section .private__info {
+  width: 850px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: #FFF;
+  margin-left: 415px;
+  margin-top: 24px;
+}
+section .private__info .d-flexx {
+  display: flex;
+  margin-left: 32px;
+  margin-top: 24px;
+  align-items: center;
+}
+section .private__info .d-flexx h2 {
+  color: var(--black, #191919);
+  /* Desktop/H3 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+section .private__info .d-flexx span {
+  margin-left: 485px;
+}
+section .private__info .d-flexx p {
+  margin-left: 12px;
+  color: var(--primary, #FF7010);
+  text-align: center;
+  margin-top: -5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+section .private__info .d-flexxx {
+  display: flex;
+  margin-left: 32px;
+  margin-top: 16px;
+  gap: 32px;
+}
+section .private__info .d-flexxx h3 {
+  color: var(--gray-text, #A5A5A5);
+  /* Desktop/Mini */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+section .private__info .d-flexxx p {
+  color: var(--black, #191919);
+  /* Desktop/Normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+section .password {
+  width: 850px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: #FFF;
+  display: flex;
+  margin-left: 415px;
+  margin-top: 20px;
+}
+section .password span {
+  margin-left: 586px;
+  margin-top: 30px;
+}
+section .password p {
+  margin-top: 29px;
+  margin-left: 12px;
+  color: var(--primary, #FF7010);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+section .password h2 {
+  color: var(--black, #191919);
+  /* Desktop/H3 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  margin-left: 32px;
+  margin-top: 24px;
+}
+section .subscribe {
+  width: 850px;
+  height: 118px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray, #F0F0F0);
+  background: #FFF;
+  margin-left: 415px;
+  margin-top: 20px;
+}
+section .subscribe h2 {
+  color: var(--black, #191919);
+  /* Desktop/H3 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  margin-left: 32px;
+  margin-top: 24px;
+}
+section .subscribe .d-flexx {
+  margin-left: 32px;
+  margin-top: 19px;
+  gap: 12px;
+  display: flex;
+}
+section .subscribe .d-flexx input {
+  width: 16px;
+  height: 16px;
+}
+section .subscribe .d-flexx p {
+  color: var(--black, #191919);
+  /* Desktop/Normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}/*# sourceMappingURL=Section__style.css.map */
